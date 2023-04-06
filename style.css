@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgba(80, 129, 243, 0.2);
+    margin: 0px  ;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background-repeat: no-repeat ;
+    
+
+
+}
+.thead h1 span{
+   
+    padding: 76px 23px 23px 259px;
+}
+.main{
+    width: 1400px;
+    height: 800px;
+    background: rgba(122, 125, 26, 0.5);
+    border: 0;
+    padding: 0;
+    margin: 100px auto 0px auto;
+    direction: rtl;
+    
+}
