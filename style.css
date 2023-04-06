@@ -1,26 +1,31 @@
 
 body{
-    background-color: rgba(80, 129, 243, 0.2);
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,78,89,1) 0%, rgba(26,128,143,1) 20%, rgba(106,190,203,1) 50%, rgba(255,255,255,1) 100%);
     margin: 0px  ;
     padding: 0;
     border: 0;
     vertical-align: baseline;
     background-repeat: no-repeat ;
-    
-
+}
+.title{
+    width: 1400px;
+    height: 40px;
+    border: 0px;
+    margin: 42px 84px 0px 250px;
+    border: 0px solid red;
+    padding: 6px 10px 48px 10px;
+    position: relative;
 
 }
-.thead h1 span{
-   
-    padding: 76px 23px 23px 259px;
-}
+
 .main{
     width: 1400px;
     height: 800px;
-    background: rgba(122, 125, 26, 0.5);
+    background-image: url(main-pic1.jpg);
     border: 0;
     padding: 0;
-    margin: 100px auto 0px auto;
+    margin: 0px 70px 0px 260px;
     direction: rtl;
-    
+    position: fixed;
 }
+
