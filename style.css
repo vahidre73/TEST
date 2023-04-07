@@ -5,7 +5,12 @@
     url("fonts/Vazir.woff") format("woff"),
     url("fonts/Vazir.woff") format("woff");
 }
-
+@font-face {
+    font-family: yekan;
+    src: url("yekan-font/yekan-regular.eot") format("eot"),
+    url("yekan-font/yekan-regular.ttf") format("ttf"),
+    url("yekan-font/yekan-regular.woff") format("woff");
+}
 
 body{
     background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,78,89,1) 0%, rgba(26,128,143,1) 20%, rgba(106,190,203,1) 50%, rgba(255,255,255,1) 100%);
@@ -30,12 +35,13 @@ body{
 .main{
     width: 1400px;
     height: 800px;
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ,url(main-pic1.jpg);
+    background-image: url(main-pic1.jpg);
     border: 0;
     padding: 0;
     margin: 0px 70px 0px 260px;
     direction: rtl;
     position: fixed;
+    font-family: yekan;
 }
 .main .thead{
     display: flex;
@@ -114,7 +120,6 @@ height: 119px;
     width: 100%;
     height: 40%;
    
-
 }
 
 
@@ -126,10 +131,13 @@ height: 119px;
 .tbody .tbody-info h1{
     padding-top: 66px;
     padding-right: 10%;
+    color: #f6f6f2;
+    border-style: 4px solid ridge;
 }
 .tbody .tbody-info p{
     font-size: 20px;
     padding-right: 10%;
+    color: #f6f6f2;
 
 }
 .tbody-detail-sale{
@@ -152,6 +160,140 @@ height: 119px;
 }
 .Footer{
     width: 100%;
-    height: 38%;
-    border: 1px solid red;
+    height: 41%;
+}
+.footer .footer-box{
+    width: 65%;
+    height: 51%;
+    margin-top: 137px;
+    margin-right: 235px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,89,3,1) 0%, rgba(255,255,255,1) 100%);
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+}
+.Footer .footer-box .footer-ayandepardazi{
+    width: 25%;
+    height: 100%;
+}
+.footer .footer-box .footer-ayandepardazi span{
+    align-items: center;
+    text-align: center;
+    padding-right: 57px;
+    color: rgba(0, 0, 0, 0.4);    
+}
+.Footer .footer-box .footer-ayandepardazi li {
+    list-style: none;
+    padding-right: 45px;
+
+}
+
+.Footer .footer-box .footer-ayandepardazi li i{
+  display: flex;
+  list-style: none;
+  
+}
+.Footer .footer-box .footer-ayandepardazi i{
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+
+}
+.Footer .footer-box .footer-ayandepardazi li a{
+    text-decoration: none;
+}
+.Footer .footer-box .footer-behinesazi{
+    width: 25%;
+    height: 100%;
+}
+.footer .footer-box .footer-behinesazi span{
+    align-items: center;
+    text-align: center;
+    padding-right: 26px;
+    color: rgba(0, 0, 0, 0.4);    
+}
+.Footer .footer-box .footer-behinesazi li {
+    list-style: none;
+    padding-right: 22px;
+
+}
+
+.Footer .footer-box .footer-behinesazi li i{
+  display: flex;
+  list-style: none;
+  
+}
+.Footer .footer-box .footer-behinesazi i{
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+
+}
+.Footer .footer-box .footer-behinesazi li a{
+    text-decoration: none;
+}
+
+.Footer .footer-box .footer-piyadesazi{
+    width: 25%;
+    height: 100%;
+}
+.footer .footer-box .footer-piyadesazi span{
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+    color: rgba(0, 0, 0, 0.4);    
+}
+.Footer .footer-box .footer-piyadesazi li {
+    list-style: none;
+    padding-right: 45px;
+
+}
+
+.Footer .footer-box .footer-piyadesazi li i{
+  display: flex;
+  list-style: none;
+  
+}
+.Footer .footer-box .footer-piyadesazi i{
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+
+}
+.Footer .footer-box .footer-piyadesazi li a{
+    text-decoration: none;
+}
+.Footer .footer-box .footer-poshtibani{
+    width: 25%;
+    height: 100%;
+
+}
+.footer .footer-box .footer-poshtibani span{
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+    color: rgba(0, 0, 0, 0.4);    
+}
+.Footer .footer-box .footer-poshtibani li {
+    list-style: none;
+    padding-right: 45px;
+}
+
+.Footer .footer-box .footer-poshtibani li i{
+  display: flex;
+  list-style: none;
+  
+}
+.Footer .footer-box .footer-poshtibani i{
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+
+}
+.Footer .footer-box .footer-poshtibani li a{
+    text-decoration: none;
 }
