@@ -30,7 +30,7 @@ body{
 .main{
     width: 1400px;
     height: 800px;
-    background-image: url(main-pic1.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ,url(main-pic1.jpg);
     border: 0;
     padding: 0;
     margin: 0px 70px 0px 260px;
@@ -109,4 +109,49 @@ height: 119px;
 .thead-sociallogo ul li a img{
     height: 50px;
     width: 50px;
-    }
+}
+.tbody {
+    width: 100%;
+    height: 40%;
+   
+
+}
+
+
+.tbody .tbody-info{
+    width: 100%;
+    height: 60%;    
+    
+}
+.tbody .tbody-info h1{
+    padding-top: 66px;
+    padding-right: 10%;
+}
+.tbody .tbody-info p{
+    font-size: 20px;
+    padding-right: 10%;
+
+}
+.tbody-detail-sale{
+    width:100%;
+    height: 37%;
+    
+    display: flex;
+}
+
+.tbody .tbody-detail-sale .tbody-detail{
+    padding-right: 139px;
+    padding-top: 30px;
+}
+.tbody .tbody-detail-sale .tbody-sale{
+    padding-top: 30px;
+}
+.tbody-detail-sale .tbody-detail,.tbody-sale{
+    padding-right: 10px;
+   
+}
+.Footer{
+    width: 100%;
+    height: 38%;
+    border: 1px solid red;
+}
