@@ -1,4 +1,67 @@
+/*----- Fonts -----*/
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: bbadr ;
+    src: url("../fonts/BBADR.eot") format("eot"),
+    url("../fonts/BBADR.TTF") format("ttf"),
+    url("../fonts/BBADR.woff") format("woff");
+}
+@font-face {
+    font-family: bkoodb ;
+    src: url("../fonts/BKOODB.eot") format("eot"),
+    url("../fonts/BKOODB.TTF") format("ttf"),
+    url("../fonts/BKOODB.woff") format("woff");
+}
+@font-face {
+    font-family: btitrbd ;
+    src: url("../fonts/BTITRBD.eot") format("eot"),
+    url("../fonts/BTITRBD.TTF") format("ttf"),
+    url("../fonts/BTITRBD.woff") format("woff");
+}
+/*----- General Styles -----*/
+body{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(3,75,89,1) 0%, rgba(222,250,250,1) 100%);
+    background-repeat: no-repeat;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #cd2122;
+}
+.clear{
+    clear: both;
+}
+h1,h2,h3,h4,h5{
+    font-family: bkoodb;
+}
+img{
+    border: 0;
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+/*---- Main ----*/
+#main{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+.top-bar{
+    background-color: #f26522;
+    height: 100px;
+    position: relative;
+}
+.socials ul{
+    margin: right 40px; 
+
+}
+.socials img{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-left: 5px;
+    padding: 20px 0 0 2px;
+
 }
