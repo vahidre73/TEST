@@ -131,22 +131,37 @@ height: 119px;
 .tbody .tbody-info h1{
     padding-top: 66px;
     padding-right: 10%;
-    color: #f6f6f2;
+    color: #fff;
     border-style: 4px solid ridge;
 }
 .tbody .tbody-info p{
     font-size: 20px;
     padding-right: 10%;
-    color: #f6f6f2;
+    color: #fff;
 
 }
 .tbody-detail-sale{
     width:100%;
     height: 37%;
-    
     display: flex;
+    
 }
+.tbody-detail-sale .tbody-detail input{
+    width: 95px;
+    height: 36px;
+    font-family: vazir;
+    border: 0px;
+    font-weight: 800;
+}
+.tbody-detail-sale .tbody-sale input{
+    width: 95px;
+    height: 36px;
+    font-family: vazir;
+    border: 0px;
+    font-weight: 800;
 
+
+}
 .tbody .tbody-detail-sale .tbody-detail{
     padding-right: 139px;
     padding-top: 30px;
@@ -165,9 +180,10 @@ height: 119px;
 .footer .footer-box{
     width: 65%;
     height: 51%;
-    margin-top: 137px;
+    margin-top: 138px;
     margin-right: 235px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,89,3,1) 0%, rgba(255,255,255,1) 100%);
+    background-color: #262642;
+    <!--background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,89,3,1) 0%, rgba(255,255,255,1) 100%);-->
     border: 0;
     border-radius: 10px;
     display: flex;
@@ -180,7 +196,8 @@ height: 119px;
     align-items: center;
     text-align: center;
     padding-right: 57px;
-    color: rgba(0, 0, 0, 0.4);    
+    color: rgba(0, 0, 0, 0.4);
+    color: #5cc8e2;    
 }
 .Footer .footer-box .footer-ayandepardazi li {
     list-style: none;
@@ -198,10 +215,12 @@ height: 119px;
     height: 70px;
     font-size: 60px;
     text-align: center;
+    color: #fff;
 
 }
 .Footer .footer-box .footer-ayandepardazi li a{
     text-decoration: none;
+    color: #80c85c;
 }
 .Footer .footer-box .footer-behinesazi{
     width: 25%;
@@ -211,7 +230,9 @@ height: 119px;
     align-items: center;
     text-align: center;
     padding-right: 26px;
-    color: rgba(0, 0, 0, 0.4);    
+    color: rgba(0, 0, 0, 0.4);   
+    color: #5cc8e2;    
+ 
 }
 .Footer .footer-box .footer-behinesazi li {
     list-style: none;
@@ -229,11 +250,14 @@ height: 119px;
     height: 70px;
     font-size: 60px;
     text-align: center;
+    color: #fff;
 
 }
 .Footer .footer-box .footer-behinesazi li a{
     text-decoration: none;
+    color: #80c85c;
 }
+
 
 .Footer .footer-box .footer-piyadesazi{
     width: 25%;
@@ -243,7 +267,9 @@ height: 119px;
     align-items: center;
     text-align: center;
     padding-right: 40px;
-    color: rgba(0, 0, 0, 0.4);    
+    color: rgba(0, 0, 0, 0.4); 
+    color: #5cc8e2;    
+   
 }
 .Footer .footer-box .footer-piyadesazi li {
     list-style: none;
@@ -254,6 +280,7 @@ height: 119px;
 .Footer .footer-box .footer-piyadesazi li i{
   display: flex;
   list-style: none;
+  color: #fff;
   
 }
 .Footer .footer-box .footer-piyadesazi i{
@@ -265,7 +292,9 @@ height: 119px;
 }
 .Footer .footer-box .footer-piyadesazi li a{
     text-decoration: none;
+    color: #80c85c;
 }
+
 .Footer .footer-box .footer-poshtibani{
     width: 25%;
     height: 100%;
@@ -275,7 +304,9 @@ height: 119px;
     align-items: center;
     text-align: center;
     padding-right: 40px;
-    color: rgba(0, 0, 0, 0.4);    
+    color: rgba(0, 0, 0, 0.4); 
+    color: #5cc8e2;    
+   
 }
 .Footer .footer-box .footer-poshtibani li {
     list-style: none;
@@ -292,8 +323,10 @@ height: 119px;
     height: 70px;
     font-size: 60px;
     text-align: center;
+    color: #fff;
 
 }
 .Footer .footer-box .footer-poshtibani li a{
     text-decoration: none;
+    color: #80c85c;
 }
