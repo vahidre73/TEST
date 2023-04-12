@@ -52,16 +52,126 @@ li{
     background-color: #f26522;
     height: 100px;
     position: relative;
+    display: flex;
+
+}
+.socials{
+    width: 33%;
+    padding-right: 25px;
+    padding-top: 25px;
 }
 .socials ul{
-    margin: right 40px; 
 
 }
 .socials img{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     float: right;
-    margin-left: 5px;
-    padding: 20px 0 0 2px;
+    margin-right: 10px;
+
+}
+.logo{
+    width: 33.5%;
+    height: 100%;
+    
+
+}
+.logo img{
+    padding-top: 15px;
+    padding-right: 25px;
+
+
+}
+.serch{
+    width: 33%;
+    height: 100%;
+
+}
+.serch .serch-input{
+    margin: 40px 95px 10px 10px;
+    width: 136px;
+    height: 27px;
+    border-right: 2px solid #fff;
+    border: 0px;
+    border-left: 2px solid #fff;
+    background-color: #252525;
+}
+.serch-btn{
+    position: absolute;
+    top: 40px;
+    left: 47px;
+    width: 33px;
+    height: 29px;
+    font-family: BKOODB;
+    background: url(../images/search-btn.png) no-repeat center center #252525;
+}
+.top-menu{
+    height: 150px;
+    background-color: #111111;
+    position: relative;
+}
+.top-menu ul{
+    text-align: right;
+    margin-right: 10px;
+}
+.top-menu ul li{
+    list-style: none;
+    display: block;
+    float: right;
+    height: 150px;
+    margin-right:10px ;
+    
+}
+.top-menu ul li a{
+    color: #fff;
+    font-family:bkoodb ;
+    font-size: 23px;
+    display: block;
+    line-height: 7;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+}
+.top-menu ul li a.home{
+    background-color: #ebebeb;
+    display: block;
+    color: #f26522;
+    border-top: 5px solid green ;
+    height: 145px;
+}
+.form1{
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.form1 .username, .form1 .password{
+    display: block;
+    width: 166px;
+    height: 38px ;
+    padding-right: 5px;
+    margin-top: 10px;
+    font-family:bbadr ;
+    font-size: 15px;
+    color: #757a74;
+    padding-top: 5px;
+    text-decoration: center;
+    text-align: center;
+}
+.form1 .register{
+    position: absolute;
+    left: 185px;
+    height: 35px;
+    width: 70px;
+    top: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background: #32004b;
+    font-family:bkoodb ;
+}
+.form1 .register a{
+    color: green;
 
 }
