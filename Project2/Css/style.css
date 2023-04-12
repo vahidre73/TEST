@@ -47,6 +47,7 @@ li{
     width: 980px;
     margin: 0 auto;
     background: #fff;
+    box-shadow: 2px 2px 20px #ccc;
 }
 .top-bar{
     background-color: #f26522;
@@ -69,6 +70,11 @@ li{
     float: right;
     margin-right: 10px;
 
+}
+.socials img:hover{
+
+    height: 65px;
+    width: 56px;
 }
 .logo{
     width: 33.5%;
@@ -120,8 +126,8 @@ li{
     float: right;
     height: 150px;
     margin-right:10px ;
-    
 }
+
 .top-menu ul li a{
     color: #fff;
     font-family:bkoodb ;
@@ -130,8 +136,11 @@ li{
     line-height: 7;
     padding-left: 5px;
     padding-right: 5px;
-    
-
+}
+.top-menu ul li a:hover{
+    background-color: #ebebeb;
+    border-top: 5px solid green ;
+    color: rgb(122, 33, 205);
 }
 .top-menu ul li a.home{
     background-color: #ebebeb;
@@ -140,6 +149,7 @@ li{
     border-top: 5px solid green ;
     height: 145px;
 }
+
 .form1{
     text-align: left;
     position: absolute;
@@ -171,10 +181,17 @@ li{
     background: #32004b;
     font-family:bkoodb ;
 }
-.form1 .register a{
-    color: green;
+.form1 .register:hover{
+    background-color: #111111;
 
 }
+.form1 .register a{
+    color: green;
+}
+.form1 .register a:hover{
+    color: #fff;
+}
+
 .row2{
     height: 363px;
     background: url('../images/slider.jpg') no-repeat center center;
@@ -209,10 +226,15 @@ li{
     float: right;
     margin-left: 5px;
 }
+
 .slide-select li a{
     position: absolute;
     width: 10px;
     height: 10px;
+}
+.slide-select li a:hover{
+    background: #007236;
+    border-radius: 50%;
 }
 .slide-select li a.active{
     background-color: #ed1c24;
@@ -253,21 +275,29 @@ li{
 }
 .row3 .title{
     height: 55px;
-    width: 180px;
-    margin-right: 402px;
+    width: 148px;
+    margin-right: 417px;
     text-align: center;
     background: #440e62;
     color: #fff;
     border-radius: 20px;
     margin-top: 14px;
     margin-bottom: 11px;
-    border: 3px solid green ;
+    border: 3px solid green;
+}
+.row3 .title:hover{
+    background-color: #fff;
+    height: 59px;
+    width: 152px;
+    border: 0;
+    color: black;
 }
 .row3 .title h2{
     padding-top: 0px;
     font-size: 30px;
     font-family: btitrbd;
 }
+
 .content{
     text-align: center;
     font-family: bbadr;
@@ -276,6 +306,10 @@ li{
 .content .box1,.box2,.box3{
     width: 33%;
     float: right;
+    transition: 2s;
+}
+.content .box1:hover,.box2:hover,.box3:hover{
+    transform: rotate(360deg);
 }
 .content .box1 img,.box2 img,.box3 img{
     width: 200px;
@@ -290,9 +324,8 @@ li{
 
 }
 .row4{
-    height: 340px;
+    height: 347px;
     background: #b7b7b7;
-    padding: bottom 10px; ;
 }
 .newsletter{
     float: right;
@@ -382,4 +415,38 @@ li{
     color: #20ffdb;
     border-radius: 15px;
     margin-right: 33%;
+}
+footer{
+    height: 80px;
+    text-align: center;
+    background-color: #363636;
+}
+footer ul{
+    text-align: center;
+    display: inline-block ;
+    margin-top: 16px;
+    padding-bottom: 5px;
+
+}
+footer ul li{
+    display: inline-block;
+    float: right;
+    margin-left: 11px;
+    font-size: 20px;
+    border-left: 2px solid #fff;
+    padding-left: 7px;
+}
+footer ul li:last-child{
+    border-left: none;
+}
+
+footer ul li a {
+    color: #e19f12 ;
+    font-family: bbadr;
+    font-size: 20px;
+}
+footer .copyright{
+    color:#e3e3e3;
+    margin-top: -5px;
+
 }
