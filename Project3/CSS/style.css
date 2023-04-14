@@ -1,0 +1,182 @@
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir.eot") format("eot"),
+    url("../fonts/Vazir.ttf") format("ttf"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.woff2") format("woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: vazir;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+/* Utility Classes */
+.container{
+    max-width: 1900px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.bg-dark{
+    background: #333;
+    color: white;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.text-primary{
+    color: orange;
+}
+.text-center{
+    text-align: center;
+}
+.l-heading{
+    font-size: 2.5rem;
+}
+.m-heading{
+    font-size: 2.5rem;
+}
+.list{
+    margin: 0.50rem;
+    list-style: none;
+}
+.list li{
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
+}
+.bold{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.btn{
+    background: orange;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: orange;
+    background: white;
+}
+.text-center {
+    text-align: center;
+}
+.m-1 {margin: 1.25rem}
+.m-2 {margin: 2rem}
+.m-3 {margin: 3rem;}
+
+.p-1{padding: 1.25rem}
+.p-2{padding: 2rem}
+.p-3{padding: 3rem}
+
+.py-1{padding: 1.25rem 0}
+.py-2{padding: 2rem 0}
+.py-3{padding: 3rem 0}
+
+ 
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   flex-direction:row-reverse ;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#showcase{
+    background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+#showcase .showcase-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    
+}
+#section1 .items{
+    display: flex;
+    padding: 1rem;
+}
+#section1 .items .item{
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+}
+#section1 .items .item i{
+    background: orange;
+    padding: 1rem;
+    border-radius: 50%;
+}
+#section1 .container .items .item{
+    padding: 1rem;
+}
+
+#section2{
+    display: flex;
+}
+
+#section2 div{
+    flex: 1;
+}
+
+#section2 .img{
+    background: url("../img/section2.jpg") no-repeat center center/cover;
+}
+
+#section2 .content{
+    text-align: right;
+}
+
+#section3 .items{
+    display: flex;    
+}
+#section3 .items div{
+    flex: 1;
+}
+#section3 .items img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#contact .contact-form{
+    flex-basic: 600px;
+    text-align: center;
+}
